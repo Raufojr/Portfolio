@@ -1,0 +1,79 @@
+Arguments: 
+  /home/raufo/.nvm/versions/node/v12.16.1/bin/node /home/raufo/.nvm/versions/node/v12.16.1/bin/yarn init
+
+PATH: 
+  /home/raufo/.zinit/polaris/bin:/home/raufo/.nvm/versions/node/v12.16.1/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/raufo/Android/Sdk/emulator:/home/raufo/Android/Sdk/tools:/home/raufo/Android/Sdk/tools/bin:/home/raufo/Android/Sdk/platform-tools:/home/raufo/android-studio/bin:/home/raufo/.yarn/bin:/home/raufo/Android/Sdk/emulator:/home/raufo/Android/Sdk/tools:/home/raufo/Android/Sdk/tools/bin:/home/raufo/Android/Sdk/platform-tools:/home/raufo/android-studio/bin:/home/raufo/.yarn/bin
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  12.16.1
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: canceled
+      at Interface.<anonymous> (/home/raufo/.nvm/versions/node/v12.16.1/lib/node_modules/yarn/lib/cli.js:136216:13)
+      at Interface.emit (events.js:311:20)
+      at Interface._ttyWrite (readline.js:893:16)
+      at ReadStream.onkeypress (readline.js:198:10)
+      at ReadStream.emit (events.js:311:20)
+      at emitKeys (internal/readline/utils.js:438:14)
+      at emitKeys.next (<anonymous>)
+      at ReadStream.onData (readline.js:1160:36)
+      at ReadStream.emit (events.js:311:20)
+      at addChunk (_stream_readable.js:294:12)
+
+npm manifest: 
+  {
+    "name": "portofolioyt",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+      "@fortawesome/fontawesome-svg-core": "^1.2.34",
+      "@fortawesome/free-brands-svg-icons": "^5.15.2",
+      "@fortawesome/free-solid-svg-icons": "^5.15.2",
+      "@fortawesome/react-fontawesome": "^0.1.14",
+      "@testing-library/jest-dom": "^5.11.9",
+      "@testing-library/react": "^11.2.3",
+      "@testing-library/user-event": "^12.6.2",
+      "node-sass": "^4.14.1",
+      "react": "^17.0.1",
+      "react-dom": "^17.0.1",
+      "react-router-dom": "^5.2.0",
+      "react-scripts": "4.0.1",
+      "web-vitals": "^0.2.4"
+    },
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test",
+      "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+      "extends": [
+        "react-app",
+        "react-app/jest"
+      ]
+    },
+    "browserslist": {
+      "production": [
+        ">0.2%",
+        "not dead",
+        "not op_mini all"
+      ],
+      "development": [
+        "last 1 chrome version",
+        "last 1 firefox version",
+        "last 1 safari version"
+      ]
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

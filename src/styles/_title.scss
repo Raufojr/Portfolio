@@ -1,0 +1,46 @@
+.Title{
+    text-transform: uppercase;
+    font-size: 2rem;
+    color: #4953b8;
+    position: relative;
+    padding-bottom: 1rem;
+    letter-spacing: 3px;
+    padding-bottom: 2rem;
+  
+    
+    &::before{
+        content: "";
+        bottom: 0;
+        position: absolute;
+        left: 0;
+        background-color: #dcdde0;
+        width: 6rem;
+        height: .4rem;
+        border-radius: 50px;
+        
+       
+        
+    }
+    &::after{
+        content: "";
+        
+        bottom: 0;
+        position: absolute;
+        left: 0;
+        background-color: #4cd62b;
+        width: 3rem;
+        height: .4rem;
+        border-radius: 50px;
+    
+        
+    }
+    span{
+        position: absolute;
+        top: 1%;
+        left: -5%;
+        font-size: 2.5rem;
+        opacity: 0.15;
+        
+
+    }
+}
